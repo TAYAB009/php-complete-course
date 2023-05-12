@@ -2,26 +2,19 @@
 <html lang="en">
 <head>
 <title>Hospital database</title>
-
-<script>
-function fetchResults() {
-   console.log('working.....');
-   
-
-   
-}
-document.getElementById("demo").style.display = "none"
-
-
-</script>
-
 </head>
 <body>
-<!-- <button type = "button" onclick="fetchResults()">fetch all result</button>  -->
-<!-- <button type = "button" onclick='document.getElementById("demo").style.display = "none"'>Hide Here</button>  -->
-<button type = "button" onclick='document.getElementById("demo").style.display = "block"'>show Here</button> 
+<p id="demo"></p>
 
-<p id="demo">JavaScript can change HTML content.</p>
+<script>
+
+var myVar = document.getElementById('demo').innerHTML = 5 + 6;
+document.write(10 + 10);
+console.log(myVar);
+</script>
+</br>
+<button type="button" onclick="document.write(20 + 20)">CTA</button>
+
 
 </body>
 </html>
