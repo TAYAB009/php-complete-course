@@ -7,10 +7,8 @@
 <p id="demo"></p>
 
 <script>
-
-var myVar = document.getElementById('demo').innerHTML = 5 + 6;
-document.write(10 + 10);
-console.log(myVar);
+window.alert('This is alert dialog!');
+alert('Alert without Windows');
 </script>
 </br>
 <button type="button" onclick="document.write(20 + 20)">CTA</button>

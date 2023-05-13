@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect('localhost', 'tayab', 'SYSTEMS_ENGINNER', 'hospital');
+$db = mysqli_connect('localhost', 'tayab', 'SYSTEMS_ENGINEER', 'hospital');
 
 if (!$db) {
     die('Connect Error' . mysqli_connect_error());
